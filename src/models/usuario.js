@@ -15,11 +15,11 @@ const usuarioSchema = new Schema({
         minLength:2,
         maxLength:50, 
     },
-    mail:{
+    email:{
         type:String,
         required:true
     },
-     password:{
+    contrasena:{
         type:String,
         required:true,
         minLength:8,

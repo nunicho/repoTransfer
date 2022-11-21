@@ -21,13 +21,13 @@ router
         .isLength({ min: 2, max: 50 })
         .withMessage("El apellido de tener entre 2 y 50 caracteres"
         ),
-     check('mail')
+     check('email')
         .notEmpty()
         .withMessage("El mail es un dato obligatorio")
         .matches(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/)
         .withMessage('Debe enviar un mail válido'
         ),
-      check('password')
+      check('contrasena')
         .notEmpty()
         .withMessage("El password es un dato obligatorio")
         .isLength({ min: 8 })
@@ -61,13 +61,13 @@ router
         .isLength({ min: 2, max: 50 })
         .withMessage("El apellido de tener entre 2 y 50 caracteres"
         ),
-     check('mail')
+     check('email')
         .notEmpty()
         .withMessage("El mail es un dato obligatorio")
         .matches(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/)
         .withMessage('Debe enviar un mail válido'
         ),
-      check('password')
+      check('contrasena')
         .notEmpty()
         .withMessage("El password es un dato obligatorio")
         .isLength({ min: 8 })
