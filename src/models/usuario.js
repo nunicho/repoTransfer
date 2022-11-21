@@ -7,13 +7,13 @@ const usuarioSchema = new Schema({
         type: String,
         required:true,
         minLength:2,
-        maxLength:50, 
+        maxLength:20, 
     },
     apellido:{
         type: String,
         required:true,
         minLength:2,
-        maxLength:50, 
+        maxLength:20, 
     },
     email:{
         type:String,
@@ -23,7 +23,6 @@ const usuarioSchema = new Schema({
         type:String,
         required:true,
         minLength:8,
-        maxLength:10
     },
     estado:{
         type:String,
